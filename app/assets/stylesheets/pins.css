@@ -1,13 +1,15 @@
 #pins {
-  margin: 0 auto; }
+  margin-left: 150px;
+  margin-top: 50px; }
 
 .box {
   margin: 5px;
-  width: 214px; 
-  background:transparent;
-}
+  width: 214px; }
 
 .box img {
   width: 100%; }
+
+.box {
+  margin-left: 50px; }
 
 /*# sourceMappingURL=pins.css.map */

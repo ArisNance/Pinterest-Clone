@@ -12,23 +12,6 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-<link rel="icon" type="image/x-icon" href="M.png">
-
-</head>    
-    
-<body>
-
-
-<div class="j">
-    <center>
-<h1 id="white">Welcome to InterestPin</h1>
-<p id="white">The place to find & post interesting pins from around the world. InterestPin was built with Ruby on Rails by Aris Nance as a personal project</p>
-<%= link_to "About Us", home_about_path, class: "btn btn-default btn-lg" %>
-<%= link_to "Home", root_path, class: "btn btn-primary" %>
-</center>
-</div>
-
-
 <style>
     .jumbotron{
      background-color: #0041a0;
@@ -39,12 +22,24 @@
       color:white !important;
   }
   
-  body
-{background-image:url('images/modsplash.png');
-background-repeat: no-repeat;
-background-size: 100%;}
  
 </style>
+
+</head>    
+    
+<body>
+
+
+<div class="jumbotron">
+    <center>
+<h1 id="white">Welcome to InterestPin</h1>
+<p id="white">The place to find & post interesting pins from around the world. InterestPin was built with Ruby on Rails by Aris Nance as a personal project</p>
+<%= link_to "About Us", home_about_path, class: "btn btn-default btn-lg" %>
+<%= link_to "Home", root_path, class: "btn btn-primary" %>
+</center>
+</div>
+
+
 
 </body>
 </html>
